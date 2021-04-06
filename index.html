@@ -100,7 +100,7 @@
                 if (val[1] == '+'){
                     result = parseInt(val[0]) + parseInt(val[2]);
                 }
-                $('input').val(result);
+                $('input').val(result.toLocaleString());
                 $('input').addClass('needClear');
             });
 
